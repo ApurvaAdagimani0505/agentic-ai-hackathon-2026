@@ -139,11 +139,60 @@ function App() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const submit = () => {
-    if (!validate()) return;
-    console.log("Career profile:", data);
-    alert("Profile saved! Connect this action to your backend/API.");
+const submit = async () => {
+  if (!validate()) return;
+
+  const payload = {
+    user_id: 1,
+
+    user_data: {
+      target_career: data.targetCareer,
+      interests: data.interests,
+      work_mode: data.workMode,
+      location: data.location,
+      timeline: data.timeline,
+      hours_per_week: data.studyHours,
+      budget: data.budget,
+      language: data.language,
+      free_resources_only: data.freeOnly,
+      learning_style: data.learningStyles
+    },
+
+    current_skills: data.skills
   };
+
+  console.log("Sending data to backend:", payload);
+
+  try {
+    const response = await fetch(
+      "http://127.0.0.1:8000/api/career/generate-plan",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Server returned ${response.status}`);
+    }
+
+    const result = await response.json();
+
+    console.log("Backend response:", result);
+
+    alert("Career roadmap generated successfully!");
+
+  } catch (error) {
+    console.error("Backend connection failed:", error);
+
+    alert(
+      "Could not connect to the backend. Make sure the backend is running."
+    );
+  }
+};
 
   return (
     <div className="app-shell">
