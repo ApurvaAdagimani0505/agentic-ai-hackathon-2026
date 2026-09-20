@@ -524,14 +524,6 @@ function PreferencesStep({ data, update, errors }) {
           ))}
         </div>
       </Field>
-
-      <div className="summary">
-        <Sparkles size={18} />
-        <div>
-          <strong>Your roadmap will be personalized</strong>
-          <p>We’ll use your target role, skill levels, available hours, budget and learning preferences to shape the recommendations.</p>
-        </div>
-      </div>
     </div>
   );
 }
