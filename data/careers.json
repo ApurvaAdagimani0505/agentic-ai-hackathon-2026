@@ -1,0 +1,66 @@
+[
+  {
+    "career": "Data Analyst",
+    "description": "Analyzes data to find useful insights and support business decisions.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Excel",
+      "Statistics",
+      "Power BI",
+      "Tableau"
+    ],
+    "projects": [
+      "Sales Dashboard",
+      "Customer Analysis"
+    ]
+  },
+  {
+    "career": "Frontend Developer",
+    "description": "Builds the user interface and visual part of web applications.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Git",
+      "APIs"
+    ],
+    "projects": [
+      "Portfolio Website",
+      "E-commerce Website"
+    ]
+  },
+  {
+    "career": "Data Scientist",
+    "description": "Uses data, statistics and machine learning to solve problems.",
+    "skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Pandas",
+      "NumPy",
+      "Machine Learning"
+    ],
+    "projects": [
+      "Prediction System",
+      "Customer Churn Prediction"
+    ]
+  },
+  {
+    "career": "Cybersecurity Engineer",
+    "description": "Protects systems, networks and applications from security threats.",
+    "skills": [
+      "Networking",
+      "Linux",
+      "Python",
+      "Cybersecurity Fundamentals",
+      "Ethical Hacking",
+      "Security Tools"
+    ],
+    "projects": [
+      "Network Security Scanner",
+      "Log Analysis System"
+    ]
+  }
+]
