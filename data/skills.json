@@ -1,0 +1,38 @@
+[
+  {
+    "skill": "Python",
+    "level": "Beginner",
+    "estimated_hours": 40,
+    "difficulty": "Medium"
+  },
+  {
+    "skill": "SQL",
+    "level": "Beginner",
+    "estimated_hours": 35,
+    "difficulty": "Medium"
+  },
+  {
+    "skill": "Excel",
+    "level": "Beginner",
+    "estimated_hours": 25,
+    "difficulty": "Easy"
+  },
+  {
+    "skill": "Statistics",
+    "level": "Intermediate",
+    "estimated_hours": 40,
+    "difficulty": "Medium"
+  },
+  {
+    "skill": "Power BI",
+    "level": "Intermediate",
+    "estimated_hours": 30,
+    "difficulty": "Medium"
+  },
+  {
+    "skill": "JavaScript",
+    "level": "Intermediate",
+    "estimated_hours": 50,
+    "difficulty": "Medium"
+  }
+]
