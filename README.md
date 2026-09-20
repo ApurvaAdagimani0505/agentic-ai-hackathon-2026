@@ -42,3 +42,55 @@ await fetch("http://localhost:8000/api/profile", {
   body: JSON.stringify(data)
 });
 ```
+
+
+# CareerPath
+
+CareerPath is an AI-powered career guidance platform that helps
+students choose career paths, identify skill gaps, create personalized
+learning roadmaps, find learning resources, and generate weekly study plans.
+
+## Features
+
+- Career analysis
+- Skill gap analysis
+- Personalized learning roadmap
+- Learning resource recommendations
+- Weekly study planning
+- LLM-powered career guidance
+- PostgreSQL database
+- AI agent orchestration
+
+## AI Agents
+
+1. Career Agent
+2. Skill Gap Agent
+3. Roadmap Agent
+4. Resource Agent
+5. Planner Agent
+6. Orchestrator
+
+## Technology Stack
+
+- Frontend: React
+- Backend: FastAPI
+- Programming Language: Python
+- Database: PostgreSQL
+- AI/LLM: LLM API
+- Testing: Pytest
+- Version Control: GitHub
+
+## Project Structure
+
+```text
+agentic-ai-hackathon-2026/
+agents/
+backend/
+data/
+ database/
+ llm/
+ models/ notebooks/
+ tests/
+ requirements.txt
+ .gitignore
+README.md
