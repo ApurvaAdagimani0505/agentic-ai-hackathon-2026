@@ -1,0 +1,37 @@
+[
+  {
+    "skill": "Python",
+    "type": "Video",
+    "language": "English",
+    "free": true,
+    "learning_style": "Video"
+  },
+  {
+    "skill": "Python",
+    "type": "Practice",
+    "language": "English",
+    "free": true,
+    "learning_style": "Practice"
+  },
+  {
+    "skill": "SQL",
+    "type": "Video",
+    "language": "English",
+    "free": true,
+    "learning_style": "Video"
+  },
+  {
+    "skill": "Excel",
+    "type": "Course",
+    "language": "English",
+    "free": true,
+    "learning_style": "Reading"
+  },
+  {
+    "skill": "Power BI",
+    "type": "Video",
+    "language": "English",
+    "free": true,
+    "learning_style": "Video"
+  }
+]
