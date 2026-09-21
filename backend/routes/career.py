@@ -35,10 +35,10 @@ def generate_plan(request_data: dict):
             f"Career recommendation generated for {career_name}."
         )
 
-        database_service.save_career_recommendation(
-            user_id,
-            career_name,
-            match_reason
-        )
+        # database_service.save_career_recommendation(
+        #     user_id,
+        #     career_name,
+        #     match_reason
+        # )
 
     return result
