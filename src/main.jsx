@@ -217,7 +217,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/career/generate-plan",
+        "https://agentic-ai-hackathon-2026.onrender.com/api/career/generate-plan",
         {
           method: "POST",
           headers: {
